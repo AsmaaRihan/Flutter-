@@ -12,8 +12,8 @@ class UserData extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-      decoration: BoxDecoration(color: Colors.grey[400]),
-      padding: EdgeInsets.all(20),
+      decoration: BoxDecoration(color: Colors.grey[300]),
+      alignment: Alignment.center,
       child: Column(children: [
         Text(
           "Name: $name",

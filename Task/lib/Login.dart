@@ -24,6 +24,12 @@ class Login {
         },
         verificationFailed: (FirebaseAuthException authException) {
           print(authException.message);
+          showDialog(
+              context: context,
+              builder: (context) => AlertDialog(
+                    title: Text("Error"),
+                    content: Text("You\'r Number Isn\'t Registered"),
+                  ));
         },
         codeSent: (String verificationId, [int forceResendingToken]) {
           //show dialog to take input from the user

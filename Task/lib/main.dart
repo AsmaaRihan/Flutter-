@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
           body: Builder(
             builder: (context) {
               return Container(
-                  decoration: BoxDecoration(color: Colors.grey[400]),
-                  padding: EdgeInsets.all(20),
+                  decoration: BoxDecoration(color: Colors.grey[300]),
+                  alignment: Alignment.center,
                   child: Column(
                     children: [
                       TextFormField(

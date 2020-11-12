@@ -39,8 +39,8 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
         body: Container(
-          decoration: BoxDecoration(color: Colors.grey[400]),
-          padding: EdgeInsets.all(25),
+          decoration: BoxDecoration(color: Colors.grey[300]),
+          alignment: Alignment.center,
           child: Column(
             children: [
               Text(
